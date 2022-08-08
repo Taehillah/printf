@@ -1,21 +1,19 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H
+#define _MAIN_H
 #include <stdarg.h>
-#include <stdarg.h>
+#include <stdio.h>
 /**
- * struct print - The structure for defferent types
+ * struct print - The structure for different types
  * of variables.
- * @x: Vriable type to be printed.
+ * @x: Variable type to be printed.
  * @y: Function pointer to print that type.
  */
-typedef struct print
-{
-char *x;
-int (*y)(va_list);
-}
-print_t;
-int _putchar(char c);
+typedef struct print {
+  char *x;
+  int (*y)(va_list);
+} print_t;
 int _printf(const char *format, ...);
+int _putchar(char c);
 int print_c(va_list c);
-int print_s(va_list c);
+int print_s(va_list s);
 #endif
