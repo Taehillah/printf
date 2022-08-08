@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
-#include <stdarg.h>
 /**
  * struct print - The structure for defferent types
  * of variables.
