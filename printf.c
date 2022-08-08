@@ -12,15 +12,6 @@ int (*insp_format(const char *format))(va_list) {
   print_t p[] = {
                 {"c", print_c},
 		            {"s", print_s},
-            //   {"%%", print_%}
-            //  {"d", print_d},
-		        //   {"u", print_u},
-            //    {"o", print_o},
-		        //    {"p", print_p},
-            //    {"r", print_r},
-		       //   {"i", print_i},
-            //    {"%x", print_x}
-            //    {"%X", print_X}
             
                 {NULL, NULL}
               };
