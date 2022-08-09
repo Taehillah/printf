@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdarg.h>
 /**
  * print_c - a function that prints a character.
  * @c: Character to be printed.
