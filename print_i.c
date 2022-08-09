@@ -20,16 +20,16 @@ cnt++;
 p[0] = y / x;
 for (index = 0; index < 10; index++)
 {
-x / = 10;
-p[index] = (y / x) % 10;
+	x /= 10;
+	p[index] = (y / x) % 10;
 }
 for (index = 0; index < 10; index++)
 {
-total + = p[index];
-if (total != 0 || i == 9)
+	total += p[index];
+	if (total != 0 || index == 9)
 {
-_putchar('0' + p[index]);
-cnt++;
+	_putchar('0' + p[index]);
+	cnt++;
 }
 }
 return (cnt);
