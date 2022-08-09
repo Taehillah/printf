@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdarg.h>
-=======
 #ifndef _MAIN_H
 #define _MAIN_H
-#include <stdarg.h>
 #include <stdio.h>
->>>>>>> 3c49003b03bef9fa5ef2414496d3acf7c1a05602
+#include <stdarg.h>
+#include <stdlib.h>
 /**
 * struct print - The structure for different types
 * of variables.
@@ -16,7 +11,7 @@
 */
 typedef struct print
 {
-char *x
+char *x;
 int (*y)(va_list);
 }
 print_t;

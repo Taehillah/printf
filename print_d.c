@@ -19,7 +19,7 @@ cnt++;
 p[0] = y / x;
 for (; index < 10; index++)
 {
-x / = 10;
+x /= 10;
 p[index] = (y / x) % 10;
 }
 for (index = 0; index < 10; index++)
