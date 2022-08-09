@@ -21,7 +21,7 @@ for (; index < 8; index++)
 y /= 16;
 p[index] = (z / y) % 16;
 }
-for (index = 0; index < 8; index++)
+for (index = 0, cnt = 0; index < 8; index++)
 {
 total += p[index];
 if (total || index == 7)
