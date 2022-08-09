@@ -29,9 +29,11 @@ int cnt = 0;
 		if (p[index] < 10)
 			_putchar('0' + p[index]);
 		else
+		{
 			_putchar('0' + sep + p[index]);
 			cnt++;
+		}
 	}
 	}
-return (cnt);
+	return (cnt);
 }
