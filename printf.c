@@ -48,28 +48,28 @@ while (format && format[i])
 {
 if (format[i] != '%')
 {
-_putchar(format[i]);
-cnt++;
-i++;
+	_putchar(format[i]);
+	cnt++;
+	i++;
 continue;
 }
 else
 {
 if (format[i + 1] == '%')
 {
-_putchar('%');
-cnt++;
-i += 2;
-continue;
+	_putchar('%');
+	cnt++;
+	i += 2;
+	continue;
 }
 else
 {
-y = insp_format(&format[i + 1]);
-if (y == NULL)
-return (-1);
-i += 2;
-cnt += y(sb);
-continue;
+	y = insp_format(&format[i + 1]);
+	if (y == NULL)
+	return (-1);
+	i += 2;
+	cnt += y(sb);
+	continue;
 }
 }
 i++;
