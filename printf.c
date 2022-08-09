@@ -7,7 +7,8 @@
  * Return: return a pointer to a function.
  * Or return: NULL if the function points to nothing.
  */
-int (*insp_format(const char *format))(va_list) {
+int (*insp_format(const char *format))(va_list) 
+{
 int index = 0;
 print_t p[] = {
 {"c", print_c},

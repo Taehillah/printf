@@ -5,11 +5,11 @@
 * @i: intergers to be printed.
 * Return: number of printed interged.
 */
-int print_d(va_list i)
+int print_d(va_list d)
 {
 int p[10];
 int index = 1, x = 1000000000, y, total = 0, cnt = 0;
-y = va_arg(i, int);
+y = va_arg(d, int);
 if (y < 0)
 {
 	y *= -1;

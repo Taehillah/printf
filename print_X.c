@@ -7,13 +7,13 @@
  * @x: character to be printed.
  * Return: Number of printed characters.
  */
-int print_x(va_list x)
+int print_X(va_list X)
 {
 unsigned int p[8];
 unsigned int index = 1, y = 268435456, z, total = 0;
 char sep;
 int cnt = 0;
-z = va_arg(x, unsigned int);
+z = va_arg(X, unsigned int);
 sep = 'a' - ':';
 p[0] = z / y;
 for (; index < 8; index++)

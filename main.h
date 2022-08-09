@@ -15,6 +15,7 @@ char *x;
 int (*y)(va_list);
 }
 print_t;
+
 int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list c);

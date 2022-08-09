@@ -5,11 +5,11 @@
 * @reverser: string to print
 * Return: number of chars printed
 */
-int print_r(va_list reverser)
+int print_R(va_list R)
 {
 char *chr;
 int index, cnt = 0;
-chr = va_arg(reverser, char *);
+chr = va_arg(R, char *);
 if (chr == NULL)
 chr = ")llun(";
 for (index = 0; chr[index]; index++)
