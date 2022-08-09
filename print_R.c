@@ -21,5 +21,3 @@ cnt++;
 }
 return (cnt);
 }
-
-
