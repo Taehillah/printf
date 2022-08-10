@@ -2,7 +2,7 @@
 /**
 * print_r - a function to print
 * in reverse.
-* @reverser: string to print
+* @r: string to print
 * Return: number of chars printed
 */
 int print_r(va_list r)

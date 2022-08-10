@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * print_x - prints character ascii code
+ * print_X - prints character ascii code
  * for character in lovercase hexadecimal.
- * @x: character to be printed.
+ * @X: character to be printed.
  * Return: Number of printed characters.
  */
 int print_X(va_list X)

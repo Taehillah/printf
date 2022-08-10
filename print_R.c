@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* print_r - a function to print
-*in reverse.
-* @reverser: string to print
+* print_R - a function to print in reverse.
+* @R: string to print
 * Return: number of chars printed
 */
 int print_R(va_list R)
