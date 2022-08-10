@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * print_d - prints the interges with a base 10.
-* @i: intergers to be printed.
+* @d: intergers to be printed.
 * Return: number of printed interged.
 */
 int print_d(va_list d)
