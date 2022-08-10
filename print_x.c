@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdarg.h>
+#include <stdlib.h>
 /**
  * print_x - prints character ascii code
  * for character in lovercase hexadecimal.

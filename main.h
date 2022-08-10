@@ -2,7 +2,6 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdarg.h>
-#include <stdlib.h>
 /**
 * struct print - The structure for different types
 * of variables.

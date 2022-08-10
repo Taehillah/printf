@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdarg.h>
 /**
  * insp_format - Function that inspects if there is a format specifier.
  * @format: specifies a valid specifier.
  * Return: return a pointer to a function.
  * Or return: NULL if the function points to nothing.
  */
-int (*insp_format(const char *format))(va_list) 
+int (*insp_format(const char *format))(va_list)
 {
 int index = 0;
 print_t p[] = {

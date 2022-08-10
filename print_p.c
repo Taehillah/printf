@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
-#include "main.h"
+#include <stdlib.h>
 /**
  * print_p - a function that print address.
  * @p: Addresses that must be printed.

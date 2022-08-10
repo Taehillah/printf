@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
 * print_d - prints the interges with a base 10.
 * @i: intergers to be printed.

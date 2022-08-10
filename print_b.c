@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_b - takes an unsigned int to bin
  * @b: unsigned in to print

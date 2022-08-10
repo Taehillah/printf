@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 * print_r - a function to print
 *in reverse.
